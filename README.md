@@ -77,7 +77,7 @@ Provisions a complete, production-ready WordPress stack from scratch using Terra
 
 ---
 
-### 🚧 Microservices Infrastructure on AWS EKS *(TFG — In Progress)*
+### 🚧 Microservices Infrastructure on AWS EKS *(TFG Already Defended— Improvements In Progress)*
 > End-to-end cloud-native infrastructure: from local Docker Compose to a production EKS cluster, with full CI/CD pipeline.
 
 [![Repo](https://img.shields.io/badge/GitHub-TFG__Infraestructura__microservicios__AWS--EKS-181717?style=flat-square&logo=github)](https://github.com/JesusCMM13/TFG_Infraestructura_microservicios_AWS-EKS)
