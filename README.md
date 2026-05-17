@@ -12,13 +12,13 @@
 
 ## 👨‍💻 About Me
 
-I hold a degree in **Network and Computer Systems Administration (ASIR)**, which gave me a solid foundation in networking, systems, and infrastructure management.
+I have the **Higher Technician in Computer Network Systems Management (ASIR)**, graduated with distinction and currently awaiting confirmation of Honours (Matrícula de Honor). The programme gave me a solid foundation in networking, systems, and infrastructure management.
 
-Right now, I'm deep into **Appian** — working towards my **Appian Associate Developer certification** and exploring the world of low-code enterprise automation. At the same time, my passion for **DevOps** keeps growing: I love everything around infrastructure as code, containers, and cloud deployments.
+Right now, I'm deep into **Appian** — working towards my **Appian Associate Developer certification** with STEMDO and exploring the world of low-code enterprise automation. At the same time, my passion for **DevOps** keeps growing: I love everything around infrastructure as code, containers, and cloud deployments.
 
 This repository is where I'll be sharing projects focused on **deployment pipelines, infrastructure automation, and cloud architecture** — so feel free to explore and give feedback!
 
-- 🎓 **Graduate** in Network and Computer Systems Administration (ASIR)
+- 🎓 **Higher Technician in Computer Network Systems Management (ASIR)**, Honours pending 🤞 
 - 📚 **Currently training** for the Appian Associate Developer certification
 - ☁️ **Passionate about** DevOps, cloud infrastructure and automation
 - 🚀 **Building** projects around deployment, containers and IaC
