@@ -53,8 +53,9 @@ This repository is where I'll be sharing projects focused on **deployment pipeli
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JesusCMM13&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JesusCMM13&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=JesusCMM13&theme=tokyonight&hide_border=true" height="165"/>
+
+![Profile views](https://komarev.com/ghpvc/?username=JesusCMM13&color=0e75b6&style=flat&label=Profile+views)
 
 </div>
 
