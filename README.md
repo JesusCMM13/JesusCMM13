@@ -62,7 +62,38 @@ This repository is where I'll be sharing projects focused on **deployment pipeli
 
 ## 🚀 Featured Projects
 
-> Projects coming soon! I'll be uploading work related to infrastructure deployment, container orchestration, and cloud automation. Stay tuned ⚙️
+### ✅ WordPress on AWS with Terraform
+> Infrastructure as Code to deploy a fully automated WordPress environment on AWS.
+
+[![Repo](https://img.shields.io/badge/GitHub-WordPress--en--AWS--con--Terraform-181717?style=flat-square&logo=github)](https://github.com/JesusCMM13/WordPress-en-AWS-con-Terraform)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Shell](https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+
+Provisions a complete, production-ready WordPress stack from scratch using Terraform — no manual steps required. Includes a custom VPC with public subnet, Internet Gateway, Elastic IP, and an EC2 instance (`t3.small`, Amazon Linux 2023) with a 20GB encrypted gp3 volume. The `userdata.sh` script automatically installs and configures Apache, PHP-FPM, MariaDB and the latest WordPress release, with optional SSL via Let's Encrypt + Certbot.
+
+**Key highlights:** modular `variables.tf` for full customization · sensitive values kept out of the repo via `.gitignore` · cost breakdown included in the docs · optional HTTPS with any domain pointing to the Elastic IP.
+
+---
+
+### 🚧 Microservices Infrastructure on AWS EKS *(TFG — In Progress)*
+> End-to-end cloud-native infrastructure: from local Docker Compose to a production EKS cluster, with full CI/CD pipeline.
+
+[![Repo](https://img.shields.io/badge/GitHub-TFG__Infraestructura__microservicios__AWS--EKS-181717?style=flat-square&logo=github)](https://github.com/JesusCMM13/TFG_Infraestructura_microservicios_AWS-EKS)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+Final degree project (2º ASIR). Monorepo with a Vue 3 frontend and a NestJS/TypeScript backend, containerized with multi-stage Dockerfiles and orchestrated locally via Docker Compose. The CI/CD pipeline (GitHub Actions) runs linting, unit tests, Trivy vulnerability scanning and pushes images to Docker Hub on every push to `main`. The production environment is an Amazon EKS cluster (v1.30, 3× `t3.small` nodes) provisioned with Terraform, managed via Kubernetes manifests (Deployments, Services, Ingress, HPA, ConfigMaps & Secrets) and Portainer CE for visual cluster management.
+
+**Key highlights:** DevSecOps-first approach with Trivy blocking CRITICAL/HIGH CVEs · Horizontal Pod Autoscaler (min 2 / max 6 replicas) · EBS-backed PostgreSQL persistence · full IaC from VPC to application layer.
+
+---
+
+
+> More projects coming soon! I'll be uploading work related to infrastructure deployment, container orchestration, and cloud automation. Stay tuned ⚙️
 
 ---
 
