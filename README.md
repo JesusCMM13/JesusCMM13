@@ -63,7 +63,7 @@ This repository is where I'll be sharing projects focused on **deployment pipeli
 
 ## 🚀 Featured Projects
 
-### ✅ WordPress on AWS with Terraform
+### 👌 WordPress on AWS with Terraform
 > Infrastructure as Code to deploy a fully automated WordPress environment on AWS.
 
 [![Repo](https://img.shields.io/badge/GitHub-WordPress--en--AWS--con--Terraform-181717?style=flat-square&logo=github)](https://github.com/JesusCMM13/WordPress-en-AWS-con-Terraform)
